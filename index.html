@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" href="./Assets/ico.ico" type="image/x-icon">
 	<title>Energía Sustentable - Landing Page</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<!-- Encabezado con el menú de navegación -->
 	<header>
+		<img src="./Assets/ico.ico" alt="Logo del sitio" class="ico">
 		<nav>
 			<ul>
 				<li><a href="#inicio">Inicio</a></li>
@@ -19,24 +21,60 @@
 
 	<!-- Sección de inicio -->
 	<section id="inicio">
-		<h1>Bienvenido a Energía Sustentable</h1>
-		<p>Aquí puede presentar información sobre su empresa y sus productos/servicios.</p>
+		<h1>¡Bienvenido a GreenTech!</h1>
+		<p>En nuestra empresa nos apasiona la energía limpia y sostenible. Creemos que es nuestra responsabilidad cuidar del planeta para las generaciones futuras, y estamos comprometidos en hacerlo posible a través de nuestras soluciones en energías renovables.
+			En esta página encontrarás información detallada sobre nuestros productos y servicios. Desde paneles solares hasta turbinas eólicas, nuestra amplia variedad de soluciones en energías renovables te ayudarán a reducir tu huella de carbono y ahorrar dinero a largo plazo.
+			Además, nuestro equipo de expertos está aquí para responder cualquier pregunta que puedas tener sobre nuestras soluciones en energías renovables. No dudes en contactarnos si necesitas asistencia o si estás interesado en obtener más información sobre cómo podemos ayudarte a hacer la transición hacia un futuro más sostenible.
+			Gracias por visitarnos y esperamos tener la oportunidad de trabajar contigo en el futuro. Juntos, podemos hacer del mundo un lugar mejor y más limpio.</p>
 	</section>
 
-	<section class="">
-		<img  src="acciona-parque-eolico-aerogeneradores.jpg" class="imagencampo">
-	</section>
 
-	<!-- Sección de servicios -->
+
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+		<img src="./Assets/imagen1.jpg" style="width:100%">
+		</div>
+	
+		<div class="mySlides fade">
+		<img src="./Assets/imagen2.jpeg" style="width:100%">
+		</div>
+	
+		<div class="mySlides fade">
+		<img src="./Assets/imagen3.jpg" style="width:100%">
+		</div>
+	
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	
+
+	<!-- Sección de Servicios -->
 	<section id="servicios">
 		<h2>Nuestros servicios</h2>
-		<p>Aquí puede presentar información sobre los servicios que ofrece su empresa.</p>
+		<h3>En GreenEnergia Solutions, ofrecemos una amplia variedad de soluciones en energías renovables para ayudarte a reducir tu huella de carbono y ahorrar dinero a largo plazo. Nuestros servicios incluyen:</h3>
+		<p><b>Paneles solares residenciales y comerciales:</b>
+			Nuestros paneles solares son una excelente opción para aquellos que buscan generar su propia energía limpia y reducir sus facturas de energía eléctrica. Ofrecemos soluciones para hogares y negocios de todos los tamaños y contamos con un equipo de expertos que te ayudará a diseñar y personalizar el sistema que mejor se adapte a tus necesidades.</p>
+		
+		<p><b>Sistemas de almacenamiento de energía:</b>
+			Nuestros sistemas de almacenamiento de energía te permiten almacenar la energía generada por tus paneles solares para utilizarla en momentos en los que la producción de energía es menor. De esta manera, podrás reducir aún más tu dependencia de la red eléctrica convencional y aprovechar al máximo la energía limpia que generas.</p>
+		
+		<p><b>Turbinas eólicas:</b>
+			Para aquellos que buscan generar energía a partir del viento, ofrecemos una amplia variedad de turbinas eólicas para hogares, negocios y proyectos a gran escala. Contamos con una amplia experiencia en la instalación y mantenimiento de turbinas eólicas y podemos ayudarte a diseñar y personalizar una solución que se adapte a tus necesidades.</p>
+		
+		<p><b>Sistemas de iluminación LED:</b>
+			Nuestros sistemas de iluminación LED son altamente eficientes y pueden reducir significativamente tus costos de energía eléctrica. Ofrecemos soluciones para hogares, negocios y proyectos a gran escala, y nuestro equipo de expertos te ayudará a diseñar un sistema que te permita disfrutar de una iluminación brillante y eficiente.</p>
+		
+		<p><b>Auditorías energéticas:</b>
+			Nuestras auditorías energéticas te permiten evaluar tu consumo de energía y encontrar maneras de reducirlo aún más. Nuestro equipo de expertos examinará tus patrones de consumo y te proporcionará recomendaciones personalizadas para reducir tu huella de carbono y ahorrar dinero a largo plazo.</p>
+		
+		<p>En GreenEnergia Solutions, estamos comprometidos en hacer del mundo un lugar mejor y más limpio. Si estás interesado en cualquiera de nuestros servicios o tienes alguna pregunta, no dudes en contactarnos. ¡Estamos aquí para ayudarte en tu transición hacia un futuro más sostenible!</p>
+		
 	</section>
 
 	<!-- Sección acerca de -->
 	<section id="acerca-de">
-		<h2>Acerca de nosotros</h2>
-		<p>Aquí puede presentar información sobre su empresa, su historia, su visión, su misión, etc.</p>
+		<h2>Acerca de GreenTech!</h2>
+		<p>En nuestra empresa, estamos comprometidos en hacer del mundo un lugar mejor a través de nuestras soluciones en energías renovables. Desde el comienzo, nuestra visión ha sido la de ser líderes en el mercado de energías renovables, ofreciendo soluciones sostenibles y económicas para nuestros clientes. Con un equipo altamente capacitado y una amplia experiencia en el sector, trabajamos para desarrollar soluciones a medida para cada uno de nuestros clientes, adaptándonos a sus necesidades y ofreciendo soluciones personalizadas. Creemos en el poder de la energía limpia y sostenible, y estamos orgullosos de ser una empresa que se enfoca en la responsabilidad social y el impacto ambiental positivo.</p>
 	</section>
 
 	<!-- Sección de contacto -->
@@ -72,6 +110,5 @@
 	</section>
 	<script src="App.js"></script>
 </body>
-	<!-- Agregar enlaces a los archivos JavaScript al final del archivo para mejorar el rendimiento de la página -->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.
+
+
