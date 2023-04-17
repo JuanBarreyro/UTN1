@@ -179,12 +179,37 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
-.footer {
+/*.footer {
   background-color: #333;
   color: #fff;
   text-align: center;
+} 
+*/
+
+
+#logoFooter {
+  color: #3CB371;
+  font-size: 36px;
 }
 
+#logoFooter:hover {
+  color: gray;
+}
+
+#twitter {
+  color: #3CB371;
+  font-size: 24px;
+}
+
+#instagram {
+  color: #3CB371;
+  font-size: 24px;
+}
+
+#facebook {
+  color: #3CB371;
+  font-size: 24px;
+}
 
 /* Media queries */
 
