@@ -128,8 +128,12 @@ nav a {
 
 #servicios {
   background-color: #fff;
-  color: #333;
+  color: white;
   padding: 50px;
+}
+
+#solarIcon {
+  font-size: 160px;
 }
 
 b{
