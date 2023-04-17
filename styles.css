@@ -16,6 +16,15 @@ body {
   height: 50px;
 }
 
+#logoNavBar {
+  color: #3CB371;
+  font-size: 48px;
+}
+
+#logoNavBar:hover {
+  color: gray;
+}
+
 header {
   background-color: #333;
   color: #fff;
